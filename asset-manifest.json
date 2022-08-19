@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e2617c1.css",
-    "main.js": "/static/js/main.d18c2839.js",
-    "static/media/login_img.jpg": "/static/media/login_img.f41d480b03a637f68da7.jpg",
-    "static/media/banner.jpg": "/static/media/banner.bc4446ec9ff10810363b.jpg",
-    "static/media/blog.jpg": "/static/media/blog.c0f98a6362d70fdbd3a2.jpg",
-    "index.html": "/index.html",
-    "main.7e2617c1.css.map": "/static/css/main.7e2617c1.css.map",
-    "main.d18c2839.js.map": "/static/js/main.d18c2839.js.map"
+    "main.css": "/TDStore/static/css/main.031a9029.css",
+    "main.js": "/TDStore/static/js/main.c34018a0.js",
+    "static/media/login_img.jpg": "/TDStore/static/media/login_img.f41d480b03a637f68da7.jpg",
+    "static/media/banner.jpg": "/TDStore/static/media/banner.bc4446ec9ff10810363b.jpg",
+    "static/media/blog.jpg": "/TDStore/static/media/blog.c0f98a6362d70fdbd3a2.jpg",
+    "index.html": "/TDStore/index.html",
+    "main.031a9029.css.map": "/TDStore/static/css/main.031a9029.css.map",
+    "main.c34018a0.js.map": "/TDStore/static/js/main.c34018a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e2617c1.css",
-    "static/js/main.d18c2839.js"
+    "static/css/main.031a9029.css",
+    "static/js/main.c34018a0.js"
   ]
 }
