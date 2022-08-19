@@ -13,7 +13,7 @@ const SignIn = () => {
     const [dbUser, setdbUser] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:3001/user")
+      fetch("http://localhost:3000/user")
         .then(res =>{
           return res.json();
         })
