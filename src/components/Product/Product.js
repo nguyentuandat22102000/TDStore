@@ -11,8 +11,8 @@ const Product = () => {
 
 
 
-  const productJSON = "http://localhost:3000/product";
-  const dataCategories = "http://localhost:3000/categories";
+  const productJSON = "http://localhost:3001/product";
+  const dataCategories = "http://localhost:3001/categories";
   useEffect(() => {
     fetch(productJSON)
       .then((res) => {

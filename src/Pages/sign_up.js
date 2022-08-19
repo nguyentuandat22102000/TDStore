@@ -10,7 +10,7 @@ const SignUp = () => {
   let navigate = useNavigate()
   let isEmpty;
   const [dbUser, setdbUser] = useState([]);
-  const dataUser = "http://localhost:3000/user";
+  const dataUser = "http://localhost:3001/user";
   useEffect(() => {
     fetch(dataUser)
       .then((res) => {

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const Category = () => {
     
-    const dataCategories = "http://localhost:3000/categories";
+    const dataCategories = "http://localhost:3001/categories";
     const [dbCategories, setDbCategories] = useState([]);
 
     useEffect(() => {
