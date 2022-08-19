@@ -1,0 +1,222 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Tuan Dat",
+      "userName": "tuandat2210",
+      "password": "Nguyendat2"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyen Tuan Dat",
+      "userName": "tuandat21",
+      "password": "Nguyendat3"
+    },
+    {
+      "fullName": "Nguyen Tuan Dat",
+      "userName": "tuandat2000",
+      "password": "Tuandat2",
+      "id": 3
+    },
+    {
+      "fullName": "nguyendat2",
+      "userName": "tuandat22",
+      "password": "Nguyendat2",
+      "id": 4
+    },
+    {
+      "fullName": "Nguyendat2",
+      "userName": "tuandat22102000",
+      "password": "Nguyendat2",
+      "id": 5
+    }
+  ],
+  "product" :
+  [
+        {
+        "id" : 1,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-1.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 2,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-2.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 3,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-3.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 4,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-4.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 5,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-5.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 6,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 2,
+        "image_product" : "../JSON__IMG/products/man/man-6.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 7,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/woman/wm-1.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 8,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/woman/wm-2.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 9,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/woman/wm-3.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 10,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/man/man-4.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 11,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/man/man-5.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 12,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 3,
+        "image_product" : "../JSON__IMG/products/man/man-6.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 13,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/baby/baby-1.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 14,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/baby/baby-2.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 15,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/man/man-3.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 16,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/man/man-4.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 17,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/man/man-5.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        },
+        {
+        "id" : 18,
+        "name" : "T-Shirt Basic All Color",
+        "id_category" : 4,
+        "image_product" : "../JSON__IMG/products/man/man-6.jpg",
+        "size" : ["S","M","L","XL"],
+        "price" : 10,
+        "amount" : 10
+        }
+  ],
+  "categories" : [
+    {
+      "id" : 1,
+      "category" : "All Clothes",
+      "imgUrl" : "../JSON__IMG/categories/all.jpg"
+    },
+    {
+      "id" : 2,
+      "category" : "Man",
+      "imgUrl" : "../JSON__IMG/categories/man.jpg"
+
+    },
+    {
+      "id" : 3,
+      "category" : "Woman",
+      "imgUrl" : "../JSON__IMG/categories/woman.jpg"
+    },
+    {
+      "id" : 4,
+      "category" : "Baby",
+      "imgUrl" : "../JSON__IMG/categories/baby.jpg"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    scroll-behavior : smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-poppins
+    }
+    h1{
+        @apply text-5xl
+    }
+    h5{
+        @apply text-xl
+    }
+    h4{
+        @apply text-2xl
+    }
+    h3{
+        @apply text-3xl
+    } 
+}
+
+@layer components{
+    .text-grad-pur{ 
+       @apply bg-gradient-to-l from-indigo-700 to-purple-900 bg-clip-text text-transparent;
+    }
+    /* Header Menu */
+    .header__menu{
+        @apply  hidden border-2-indigo w-full absolute top-20 pt-2 
+                bg-gray-300 left-0 md:w-full z-50 
+    }
+    /* Main / Body */
+    .container__wide{
+        @apply container mx-auto
+    }
+    /* Display */
+    .flex__center{
+        @apply flex justify-between items-center
+    }
+    .flex__end{
+        @apply flex justify-end items-center
+    }
+    /* Boder */
+    .border-2-indigo{
+        @apply
+            border-t-2
+            border-indigo-800
+    }
+    /* Button */
+    .btn{
+        @apply 
+        inline-block px-5 py-2 rounded-lg shadow-md tracking-wider
+        hover:text-white hover:-translate-y-1 transition transform 
+    }
+    .btn__primary{
+        @apply  bg-indigo-300 mx-2 hover:bg-indigo-400 active:bg-indigo-600 ring-offset-2 ring-2 ring-indigo-400 ring-opacity-50
+    }
+    .btn__secondary{
+        @apply  bg-gray-300 mx-2 hover:bg-gray-400 active:bg-gray-600 ring-offset-2 ring-2 ring-gray-400 ring-opacity-50
+    }
+    .text__label{
+        @apply text-xl block mb-4 cursor-pointer;
+    }
+    .form__input{
+        @apply py-3 px-2 w-full border-none outline-none rounded-lg focus:ring-4 focus:ring-offset-2 focus:ring-blue-400 text-black
+        cursor-pointer
+    }
+    .signin__icon{
+        @apply mx-2 cursor-pointer h-[50px] w-[50px] hover:border-solid hover:border-2 hover:border-black hover:rounded-full
+    }
+    .icon__hover{
+        @apply hover:text-blue-400
+    }
+    .msg__signup{
+        @apply text-red-600 mt-1
+    }
+    .box__shadow{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    
+    }
+}
+
+.banner__bg{
+    background-image:url('./asset/image/banner.jpg');
+    background-position : center;
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+.text__shadow{
+    text-shadow : 4px 12px 2px rgba(0,0,0,0.8);
+}
+.text__shadow__2{
+    text-shadow: -10px -10px 3px rgba(0, 0, 0, 0.2) ;
+}
+.box__shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+header.sticky{
+    background:#fff;
+    z-index:1;
+}
+.display__block{
+    display : block !important;
+}
+.form__group{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bg__4b{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
