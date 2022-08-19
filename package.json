@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nguyentuandat22102000.github.io/",
+  "homepage": "https://nguyentuandat22102000.github.io/TDStore",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
@@ -29,12 +29,12 @@
   },
   "scripts": {
     "start": "NODE_PATH=src react-scripts start",
-    "build": "NODE_PATH=src react-scripts build",
+    "build": "NODE_PATH=src/TDStore react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 3000",
-    "predeploy": "NODE_PATH=src npm run build",
-    "deploy": "NODE_PATH=src gh-pages -d build"
+    "predeploy": "NODE_PATH=src/TDStore npm run build",
+    "deploy": "NNODE_PATH=src/TDStore gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
